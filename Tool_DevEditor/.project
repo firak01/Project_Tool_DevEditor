@@ -24,13 +24,13 @@
 		<link>
 			<name>README.md</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/README.md</locationURI>
+			<locationURI>copy_PARENT1/README.md</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>
 		<variable>
-			<name>copy_PARENT</name>
-			<value>$%7BPARENT-2-PROJECT_LOC%7D/Project_Tool_DevEclipseStarter</value>
+			<name>copy_PARENT1</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D</value>
 		</variable>
 	</variableList>
 </projectDescription>
