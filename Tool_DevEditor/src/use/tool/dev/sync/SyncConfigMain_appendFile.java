@@ -16,7 +16,7 @@ import basic.zBasic.util.datatype.string.StringArrayZZZ;
 import basic.zBasic.util.datatype.string.StringZZZ;
 import basic.zBasic.util.file.FileEasyZZZ;
 import basic.zBasic.util.file.ResourceEasyZZZ;
-import basic.zBasic.util.file.txt.stream.FileTextAppenderZZZ;
+import basic.zBasic.util.file.txt.stream.FileTextLineAppenderZZZ;
 import basic.zBasic.util.properties.PropertiesUtilZZZ;
 import basic.zKernel.KernelPropertyZZZ;
 
@@ -116,7 +116,7 @@ public class SyncConfigMain_appendFile implements IConstantZZZ, ISyncConfigConst
 	        	//4. Hänge eine neue, ausgerechnete Zeile an
 	        	//   TODOGOON20260818: Der Appender muss ein FileTextUniqueAppenderZZZ werden, oder per Flag gesteuert.
 	        	//                     Auf jeden fall doppelte Einträge schon jetzt und nicht erst beim "updateKeys" vermeiden.
-	        	FileTextAppenderZZZ objFileAppender = new FileTextAppenderZZZ(fileConfigFile);
+	        	FileTextLineAppenderZZZ objFileAppender = new FileTextLineAppenderZZZ(fileConfigFile);
 	        	
 	        	int iCount = 0;
 	        	for(String sLine : listEintragNewly) {	        		

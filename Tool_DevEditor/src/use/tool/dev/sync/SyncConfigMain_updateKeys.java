@@ -16,7 +16,7 @@ import basic.zBasic.util.datatype.string.StringArrayZZZ;
 import basic.zBasic.util.datatype.string.StringZZZ;
 import basic.zBasic.util.file.FileEasyZZZ;
 import basic.zBasic.util.file.ResourceEasyZZZ;
-import basic.zBasic.util.file.txt.stream.FileTextAppenderZZZ;
+import basic.zBasic.util.file.txt.stream.FileTextLineAppenderZZZ;
 import basic.zBasic.util.file.txt.stream.FileTextSaverZZZ;
 import basic.zBasic.util.file.txt.stream.FileTextWriterZZZ;
 import basic.zBasic.util.properties.PropertiesUtilZZZ;

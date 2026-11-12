@@ -11,6 +11,13 @@ import java.util.regex.Pattern;
 public class RegexReplaceTool {
 
     // Regex: fängt vec...get(Ziffer) ein
+	
+	  /*    RegEx:    	
+    Zwei kleine Tipps für deine Methode
+    • Sonderzeichen absichern: Da sToFind als beliebiger Text von außen übergeben wird, könnte darin zufällig ein Regex-Steuerzeichen wie ein Punkt (.) oder ein Fragezeichen (?) stecken. Mit Pattern.compile(Pattern.quote(sToFind)) stellst du sicher, dass die Methode immer nach dem exakten Text sucht und nicht abstürzt.
+    • Dollarzeichen beim Ersetzen: Falls im Ersatztext (sReplacement) später einmal ein $-Zeichen vorkommen sollte, wirft replaceAll eine Fehlermeldung, weil es darin eine Regex-Gruppe vermutet. Mit Matcher.quoteReplacement(sReplacement) umgehst du dieses Problem zuverlässig.
+     */
+	//es bleibt beim alt: 
     private static final Pattern P = Pattern.compile("(vec\\w*\\.get\\([0-9]\\))");
 
     // Replacement: korrekt geklammert
