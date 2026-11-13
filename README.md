@@ -10,3 +10,8 @@ Module:
 - RexEx Replace:     Ersetze Text (hier Code) in Java Dateien.
 
 - TextDatei Sucher: Suche in mehreren Dateien und per RegEx definierte Zeilen werden in der Konsole ausgegeben.
+
+-------------------------------
+Hier ist die Beschreibung wie diese Projekt anhand einer Vorlage erstellt wurde.<BR>
+Zudem ist dort auch die Berschreibung von Besonderheiten / Sinn von einigen Ordner, etc.<BR>
+https://github.com/firak01/Project_JAZRepositoryDummyTemplate#projekt_jazrepositorydummytemplate
